@@ -15,29 +15,29 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   font-size: 18px;
   margin: 0;
   color: #ffffff;
-  background-color: #535bf2;
+  background-color: #242424;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
 }
 
 #app {
@@ -68,4 +68,14 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom left;
+}
+
+.social a {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-right: 2rem;
+}
+
+.social a:hover {
+  color: red;
 }
