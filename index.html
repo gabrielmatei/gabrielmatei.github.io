@@ -3,10 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Gabriel Matei • personal website</title>
+  <title>Gabriel Matei | Co-Founder & CTO at buidly</title>
+  <meta name="description" content="Co-Founder and CTO at buidly. I build tools, smart contracts, and scalable backend systems to make blockchain development simpler and more enjoyable.">
 
   <link rel="stylesheet" href="/src/style.css">
 
@@ -15,28 +19,33 @@
 
 <body>
   <main id="app">
-    <div class="profile">
+    <!-- <div class="profile">
       <span class="profile-picture"></span>
-    </div>
+    </div> -->
 
     <div class="content">
-      <div class="hero mb-2">
-        <p>Hi there 👋, I'm</p>
-        <h1>Gabriel Matei</h1>
-        <h3>Pushing the boundaries of what's possible with blockchain, one project at a time</h3>
+      <div class="hero mb-2 flex flex-col gap-2 text-2xl">
+        <p>Hi there <span class="inline-block filter grayscale brightness-0 invert">👋</span>, I'm</p>
+        <h1 class="text-4xl font-bold tracking-tighter">Gabriel Matei</h1>
+        <h3>Co-Founder & CTO at <a href="https://buidly.com" target="_blank" class="text-[#0b80ef] font-black">buidly</a></h3>
       </div>
 
-      <div class="description mb-2">
-        <p>Currently, I am a part of the MultiversX team and also working as a Core Developer at buidly. I am excited to
-          be contributing my skills and expertise to these dynamic organizations as we push the boundaries of what is
-          possible with blockchain technology.
+      <div class="description mb-2 flex flex-col gap-4">
+        <p>
+          I’m a developer who loves building things that actually work. Most of what I do lives somewhere between smart contracts, backend systems, and finding ways to make blockchain feel less complicated.
+        </p>
+        <p>
+          I’ve always been curious about how things are made. That curiosity turned into writing code, and eventually into building products that help other people create too.
+        </p>
+        <p>
+          Right now I’m working at <a href="https://buidly.com" target="_blank" class="text-[#0b80ef] font-black">buidly</a>, where we’re building tools that make it easier and more enjoyable to build on blockchain.
         </p>
       </div>
 
       <div class="social">
-        <a href="https://twitter.com/gabrielvmatei" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://github.com/gabrielmatei" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/mateigabriel/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/gabrielvmatei" target="_blank"><i class="fa-brands fa-x-twitter hover:text-[#0b80ef]"></i></a>
+        <a href="https://github.com/gabrielmatei" target="_blank"><i class="fa-brands fa-github hover:text-[#0b80ef]"></i></a>
+        <a href="https://www.linkedin.com/in/mateigabriel/" target="_blank"><i class="fa-brands fa-linkedin hover:text-[#0b80ef]"></i></a>
       </div>
     </div>
   </main>
